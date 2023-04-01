@@ -1,0 +1,45 @@
+.Hero{
+    height: 70vh;
+    width: 100vw;
+    background: hsla(54, 51%, 63%, 1);
+
+background: linear-gradient(180deg, hsla(54, 51%, 63%, 1) 48%, hsla(330, 53%, 77%, 1) 88%);
+
+background: -moz-linear-gradient(180deg, hsla(54, 51%, 63%, 1) 48%, hsla(330, 53%, 77%, 1) 88%);
+
+background: -webkit-linear-gradient(180deg, hsla(54, 51%, 63%, 1) 48%, hsla(330, 53%, 77%, 1) 88%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#D0C66F", endColorstr="#E4A7C5", GradientType=1 );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.HeroSection{
+    display: flex;
+    justify-content: center;
+    width: 1080px;
+    align-items: center;
+}
+
+.HeroSectionOne{
+    position: absolute;
+    left: 200px;
+    text-align: center;
+    
+}
+
+.HeroSectionTwo{
+    position: absolute;
+    right: 100px;
+}
+
+.RegisterButton{
+    appearance: none;
+    border-radius: 5px;
+    height: 40px;
+    margin-top: 35px;
+    width: 180px;
+    background-color: gold;
+}
