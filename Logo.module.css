@@ -1,0 +1,10 @@
+.Logo{
+    display: flex;
+    background-color: #AFD889;
+    padding: 5px;
+    /* border: 2px solid brown; */
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
