@@ -1,0 +1,58 @@
+.Navbar {
+    background: linear-gradient(90deg, hsla(91, 50%, 69%, 1) 10%, hsla(54, 48%, 68%, 1) 61%);
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.NavContent{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 1080px;
+    /* border: 2px solid red; */
+}
+
+.NavButtons{
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.Logo{
+    color: black;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin: 10px 20px;
+}
+
+.Buttons{
+    margin: 10px 20px;
+    color: black;
+    font-size: 1.2rem;
+    
+}
+
+.Buttons:hover{
+    border-bottom: 4px solid blueviolet;
+    cursor: pointer;
+}
+
+.Home{
+    color: brown;
+    border: 2px solid brown;
+    border-radius: 4px;
+    margin: 10px 20px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    padding: 5px
+}
+
+.Login{
+    background-color: brown;
+    color: yellow;
+    padding: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
